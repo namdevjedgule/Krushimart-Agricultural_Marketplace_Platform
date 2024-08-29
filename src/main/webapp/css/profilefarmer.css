@@ -1,0 +1,100 @@
+.profile{
+    border-top: 100px;
+}
+.fieldset
+{
+    border-width: 5px ;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.profileimage
+{
+    border: 5px solid;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.button
+ {
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid;
+
+ }
+ .button1
+ {
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid;
+    margin-left: 50px;
+ }
+
+#right
+{
+    background: white;
+    width: 60%;
+    float: right;
+    height: 500px;
+    font-size: 15px;
+    border-left: 10px;
+}
+
+#left
+{
+    background-color: white;
+    width: 40%;
+    float: left;
+    height: 500px;
+}
+
+#bottom
+{
+    background: white;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.bottom1{
+    width: 85%;
+    
+}
+
+.postimg1
+{
+    width: 40%;
+    float: left;
+   
+    margin-left: 100px;
+}
+
+.postdata1
+{
+    width: 80%;
+    /* float: right; */
+    margin-left: 350px;
+}
+
+.productimage
+{
+    height: 170px;
+    width: 170px;
+    border: 5px solid;
+    border-radius: 20px;
+    padding-inline: 30px;
+}
+
+li
+{
+    font-size: 20px;
+}

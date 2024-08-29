@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.maindiv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: none;
+}
+
+#bagroundImg{
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/bg1.jpg') ;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#overlay{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.516);
+}
+.applogo{
+    display: flex;
+    justify-content: center;
+    margin-left: 650px;
+    position: fixed;
+    margin-top: 0px;
+    width: 250px;
+  
+}
+.logoimg{
+    height: 200px;
+}
+.mart{
+    font-size: 40px;
+    font-family: Arial Black;
+    color: green;
+    margin-top: -70px;
+    margin-left: 130px;
+    text-shadow: rgb(178, 236, 91) 1px 0 10px;
+}
+.cards{
+    height: 450px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 40%;
+    left:20%;
+}
+.cardreg{
+    height: 350px;
+    width:300px;
+    display: grid;
+    margin-right: 30px;
+    border-radius: 30px;
+    transition-duration: 1s;
+    /* box-shadow: 0 0 2px grey; */
+
+}
+.cardreg:hover{
+    box-shadow: 0 0 10px rgb(36, 33, 33);
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+.common-card div img{
+    margin: 20px;
+  }
+  .heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.852);
+    margin-top: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-shadow: rgb(231, 200, 76) 1px 0 10px
+    /* background-color: ; */
+    
+  }
+  .signup{
+    height: 40px;
+    width: 150px;
+    background-color: green;
+    margin-top: 30px;
+    line-height: 40px;
+    border-radius: 20px;
+    transition-duration: 1s;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 80px;
+  }
+  .signup:hover{
+    transform: scale(0.9);
+  }
+  a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial Black;
+    font-size: 20px;
+  }
+    
+    @media only screen and (max-width: 700px){
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px){
+      .responsive {
+        width: 100%;
+      }
+    }
+  /* ab kaisa hai ha*/
+.image1 img{
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+#exitsting-user{
+  top: 90%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.btn {
+  margin-top: 10px;
+  margin-left: 10px;
+  border: none;
+  height: 40px;
+  width: 110px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+  box-shadow: 0px 0px 8px rgb(96, 177, 209);
+
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.bpage {
+    height: 100%;
+    width: 100%;
+}
+/* label{
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(5, 107, 5);
+    text-shadow: rgb(199, 238, 121) 1px 0 10px;
+    padding-top: 70px;
+    font-size: larger;   
+} */
+
+.main {
+    display: flex;
+    border: 1px solid black;
+    margin: 0 350px;
+    padding: 70px;
+    margin-top: 40px;
+    background-image: url('bgColor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+#bagroundImg {
+    margin-top: 0px;
+    height: 100vh;
+    width: 100%;
+    background-image: url('bg1.jpg');
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.516);
+}
+
+.left {
+    padding-left: 40px;
+    margin-left: 10px;
+}
+
+.btn {
+    margin-top: 60px;
+    margin-left: 75px;
+    border: none;
+    height: 60px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+    box-shadow: 0px 0px 8px rgb(96, 177, 209);
+
+}
+
+.btn1 {
+    margin-top: 40px;
+    margin-left: 35px;
+    border: none;
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.btn1:hover {
+    transform: scale(0.9);
+    box-shadow: 0px 0px 8px rgb(96, 177, 209);
+
+}
+
+.card {
+    margin-left: 100px;
+
+}
+
+.card-body {
+    font-size: 20px;
+}

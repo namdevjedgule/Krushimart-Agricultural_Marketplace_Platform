@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+.main {
+    display: flex;
+    border: 1px solid black;
+    margin: 0 300px;
+    padding: 80px;
+    padding-top: 100px;
+    background-image: url('../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.left {
+    padding-left: 130px;
+}
+
+.btn {
+    margin-left: 75px;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+.btn:hover {
+    transform: scale(0.9);
+    box-shadow: 0px 0px 8px rgb(96, 177, 209);
+
+}
+
+.card {
+    margin-left: 100px;
+}
+
+.card-body {
+    font-size: 20px;
+    min-width: 300px;
+}
+img{
+    border-radius: 40px;
+}
+
+/*  */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.applogo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    
+}
+.applogo img{
+    height: 80px;
+    width: 100px;
+}
+.mart{
+    font-size: 15px;
+    font-family: Arial Black;
+    color: green;
+    margin-top: -15px;
+    margin-left: 50px;
+    text-shadow: rgb(178, 236, 91) 1px 0 10px;
+}
+#second-navbar{
+    height: 115px;
+    background-color: rgba(255, 255, 255, 0.829);
+    -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+    overflow: hidden;
+}
+.navbar a:hover{
+  color: white !important;
+}
+.nav-item a:hover{
+  color: black !important;
+}
+
+.navbar-text btn{
+  margin-left: 500px;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #third-navbar{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
